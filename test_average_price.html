@@ -27,7 +27,7 @@
         }
         ];
 
-
+        // Part B:
         function calculateAveragePricePerDesigner(inventory) {
     
         let averagePrices = {};
@@ -55,6 +55,117 @@
         // test function:
         avgPrice = calculateAveragePricePerDesigner(currentInventory);
         console.log(avgPrice)
+
+        // Part C:
+        function listAllBlackShoes(inventory) {
+    
+            let flatList = '';
+            for (let i = 0; i < inventory.length; i++) {
+                designer = inventory[i].name;
+                shoes = inventory[i].shoes;
+                for (let j = 0; j < shoes.length; j++) {
+                    if (isBlack(shoes[j])) {
+                        flatList += designer + ', ' + shoes[j].name + ', ' + shoes[j].price + '\n';
+                    }
+                }
+            }
+            return flatList;
+        }
+
+        //Create helper functions if needed
+        function isBlack(shoe) {
+            return shoe.name.indexOf('black') !== -1;
+        }
+
+        // Part D:
+        function generateLaceDetails(inventories) {
+            shoeNameList = [];
+            
+            for (let i = 0; i < inventories.length; i++) {
+                shoes = inventories[i].shoes;
+                for (let j = 0; j < shoes.length; j++) {
+                    nameWords = shoes[j].name.split(" ");
+                    targetWordIndex = getLaceIndex(nameWords);
+                    if (targetWordIndex > 0) {
+                        shoeNameList.push(
+                            {
+                                "nameWords": nameWords,
+                                "targetWordIndex": targetWordIndex
+                            }
+                        );
+                    }
+                    
+                }
+            }
+            return shoeNameList;
+        }
+
+    function getLaceIndex(nameWords) {
+        for (let i = 0; i < nameWords.length; i++) {
+            if (nameWords[i].indexOf('lace') !== -1) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    // test case:
+
+    function assertObjEqual(actual, expected, testName) {
+        actual = JSON.stringify(actual);
+        expected = JSON.stringify(expected);
+        
+        if (actual === expected) {
+            console.log("passed")
+        } else {
+            console.log(`FAILED [${testName}]`)
+        }
+    }
+
+    var expectedResult = [
+    {
+        "nameWords": [
+        "tasselled",
+        "black",
+        "low-top",
+        "lace-up"
+        ],
+        "targetWordIndex": 3
+    },
+    {
+        "nameWords": [
+        "tasselled",
+        "green",
+        "low-top",
+        "lace-up"
+        ],
+        "targetWordIndex": 3
+    },
+    {
+        "nameWords": [
+        "red",
+        "leather",
+        "laced",
+        "sneakers"
+        ],
+        "targetWordIndex": 2
+    },
+    {
+        "nameWords": [
+        "black",
+        "leather",
+        "laced",
+        "sneakers"
+        ],
+        "targetWordIndex": 2
+    }
+    ];
+
+    actualResult = generateLaceDetails(currentInventory);
+
+    assertObjEqual(actualResult[0], expectedResult[0], "test lace details");
+    console.log(JSON.stringify(actualResult[0]));
+    console.log(JSON.stringify(expectedResult[0]));
 
     </script>
     
