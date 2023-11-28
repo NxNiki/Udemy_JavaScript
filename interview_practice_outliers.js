@@ -12,7 +12,7 @@ detectOutlierValue("1 10 1 1");  //=> 2 - Second number is even, while the rest 
 // Submit de-obfuscated code
 
 function detectOutlierValue(string) {
-    array = string.split(' ')
+    let array = string.split(' ')
     // return 0 if length of array is less than 3.
     if (array.length < 3) {
         return 0;
