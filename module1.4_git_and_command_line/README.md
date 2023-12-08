@@ -23,3 +23,16 @@ git log --pretty=oneline --all
 ```
 
 See `man git-log` for all details.
+
+
+edit .gitconfig in the home directory:
+```
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+```
