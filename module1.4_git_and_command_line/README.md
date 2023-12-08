@@ -25,7 +25,7 @@ git log --pretty=oneline --all
 See `man git-log` for all details.
 
 
-edit .gitconfig in the home directory:
+edit `.gitconfig` in the home directory:
 ```
 [alias]
   co = checkout
