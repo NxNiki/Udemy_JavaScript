@@ -7,3 +7,5 @@
 5. pseudocode the strategy
 6. implement the solution
 
+note: readability is important to your productivity, as it may takes several rounds of reviews before your pull request is accepted. 
+
