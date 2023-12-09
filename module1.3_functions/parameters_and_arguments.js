@@ -78,3 +78,14 @@ var myFunc = function(myStr) {
 setTimeout(function(timeoutArgument) {
   myFunc('Hello World')
 }, 1500);
+
+
+var listAllShirts = function(inventory) {
+
+  var res = [];
+  var shirts = inventory['shirts'];
+  for (var i = 0; i < shirts.length; i++) {
+      res.push(`${shirts[i]['designer']} ${shirts[i]['name']} ${shirts[i]['price']}`);
+  }
+  return res;
+};
