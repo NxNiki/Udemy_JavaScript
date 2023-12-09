@@ -15,4 +15,6 @@ install packages with npm and update the package.json file:
 npm install --save underscore
 ```
 
+use `npm install` to update the packages.
+
 
