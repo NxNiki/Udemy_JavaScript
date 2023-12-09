@@ -7,5 +7,12 @@
 5. pseudocode the strategy
 6. implement the solution
 
-note: readability is important to your productivity, as it may takes several rounds of reviews before your pull request is accepted. 
+note: readability is important to your productivity, as it may take several rounds of reviews before your pull request is accepted. 
+
+install packages with npm and update the package.json file:
+
+```
+npm install --save underscore
+```
+
 
