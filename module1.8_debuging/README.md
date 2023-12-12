@@ -11,7 +11,11 @@ ctrl + shift + j
 ```
 or on Mac:
 ```
-command + shift + j
+command + option + j
 ```
+
+Press `Esc` to open the console.
+
+
 
 
