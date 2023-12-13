@@ -30,19 +30,19 @@ In module 1.6 testBuilder, we need IIFE to run tests successfully:
 
 ```Javascript
 var should = chai.should();
-  var randomDigits = Math.floor(Math.random() * Math.pow(10, 20)).toString();
+var randomDigits = Math.floor(Math.random() * Math.pow(10, 20)).toString();
 
-  for (var prefix = 622126; prefix <= 622925; prefix++) {
-    var prefix = prefix.toString();
-    for (var length = 16; length <= 19; length++) {
-      var cardNumber = prefix + randomDigits.slice(0, length - prefix.length);
-      (function(currentCardNumber) {
-        it('as a prefix of ' + prefix + ' and a length of ' + length, function () {
-          detectNetwork(currentCardNumber).should.equal('China UnionPay');
-        });
-      })(cardNumber);
-    }
+for (var prefix = 622126; prefix <= 622925; prefix++) {
+  var prefix = prefix.toString();
+  for (var length = 16; length <= 19; length++) {
+    var cardNumber = prefix + randomDigits.slice(0, length - prefix.length);
+    (function(currentCardNumber) {
+      it('as a prefix of ' + prefix + ' and a length of ' + length, function () {
+        detectNetwork(currentCardNumber).should.equal('China UnionPay');
+      });
+    })(cardNumber);
   }
+}
 ```
 
 
