@@ -3,6 +3,9 @@
 A scope (`lexical scope`) is a part of the program where binding between a variable and a value is valid.
 It determines which variable can be written in the source code.
 
+- global scope
+
+
 ```JavaScript
 var hero = aHero();
 var newSaga = function() {
