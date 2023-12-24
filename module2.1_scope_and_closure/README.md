@@ -58,7 +58,7 @@ console.log(foil) // this will not work
 
 Each variable in the global context has a corresponding property on the global object. In the browser, the global object is referred to as `window`:
 
-```JavaScript:
+```JavaScript
 var global_variable = 7;
 console.log(global_variable);
 console.log(window.global_variable);
@@ -73,7 +73,7 @@ var gimmeTheGlobalScope = function() {
 A [closure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function. 
 
 Check the execution context of this simulated snippet:
-```
+```JavaScript
 var sagas = [];
 var hero = aHero();
 var newSaga = function() {
