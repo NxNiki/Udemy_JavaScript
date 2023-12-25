@@ -6,9 +6,9 @@ function get (x) { return x; }
 function set (value) { x = value; }
 
 set(10);
-var result1 = get(20);
+var result = get(20);
 
-console.log(result1);
+console.log(result); // comment the remaining code to get correct answer.
 
 // Q2:
 var x = 30;
