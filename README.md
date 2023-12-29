@@ -7,7 +7,10 @@ https://www.udemy.com/course/beginning-javascript/
 Software Engineering Basic:
 https://learn-2.galvanize.com/cohorts/888
 
-HTML and CSS (module2.2):
+SEI-Precourse:
+https://learn-2.galvanize.com/cohorts/3943
+
+HTML and CSS (module2.2 in precourse):
 https://learn.shayhowe.com/html-css/
 
 ## issues for vs code:
