@@ -12,6 +12,7 @@ https://learn-2.galvanize.com/cohorts/3943
 
 HTML and CSS (module2.2 in precourse):
 https://learn.shayhowe.com/html-css/
+https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps
 
 ## issues for vs code:
 
