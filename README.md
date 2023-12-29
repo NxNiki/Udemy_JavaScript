@@ -7,6 +7,9 @@ https://www.udemy.com/course/beginning-javascript/
 Software Engineering Basic:
 https://learn-2.galvanize.com/cohorts/888
 
+HTML and CSS (module2.2):
+https://learn.shayhowe.com/html-css/
+
 ## issues for vs code:
 
 I get this error when debugging vscode:
