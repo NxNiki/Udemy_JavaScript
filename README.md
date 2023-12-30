@@ -1,5 +1,7 @@
 # Udemy_JavaScript
-codes of Udemy course on javascript and software engineering basic prep
+Udemy course on javascript and software engineering basic prep
+
+## Resource:
 
 - [Udemy course](https://www.udemy.com/course/beginning-javascript/)
 
@@ -13,7 +15,7 @@ codes of Udemy course on javascript and software engineering basic prep
 
 - [JQuery](https://learn.jquery.com/about-jquery/how-jquery-works/)
 
-## issues for vs code:
+## Issues:
 
 I get this error when debugging vscode:
 `Can't find Node.js binary "node": path does not exist. Make sure Node.js is installed and in your PATH, or set the "runtimeExecutable" in your launch.json.`
