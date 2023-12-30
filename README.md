@@ -1,20 +1,17 @@
 # Udemy_JavaScript
 codes of Udemy course on javascript and software engineering basic prep
 
--[Udemy course](https://www.udemy.com/course/beginning-javascript/)
+- [Udemy course](https://www.udemy.com/course/beginning-javascript/)
 
-Software Engineering Basic:
-https://learn-2.galvanize.com/cohorts/888
+- [Software Engineering Basic](https://learn-2.galvanize.com/cohorts/888)
 
-SEI-Precourse:
-https://learn-2.galvanize.com/cohorts/3943
+- [SEI-Precourse](https://learn-2.galvanize.com/cohorts/3943)
 
-HTML and CSS (module2.2 in precourse):
-https://learn.shayhowe.com/html-css/
-https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps
+- [HTML and CSS (module2.2 in recourse)](https://learn.shayhowe.com/html-css/)
 
-JQuery:
-https://learn.jquery.com/about-jquery/how-jquery-works/
+- [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps)
+
+- [JQuery](https://learn.jquery.com/about-jquery/how-jquery-works/)
 
 ## issues for vs code:
 
