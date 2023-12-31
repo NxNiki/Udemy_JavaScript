@@ -24,6 +24,23 @@
       // This implicitly calls .first()
       console.log("Index: " + div.index()); // 0
       console.log("Index: " + div.first().index()); // 0
+
+      // index() with string argument
+      // var foo = $( "li" );
+      var foo = $( "#foo1" );
+
+      // This implicitly calls .first()
+      console.log( "Index: " + foo.index( "li" ) ); // 0
+      console.log( "Index: " + foo.first().index( "li" ) ); // 0
+
+      var baz = $( "#baz1" );
+      console.log( "Index: " + baz.index( "li" )); // 2
+
+      var listItem = $( "#bar1" );
+      console.log( "Index: " + listItem.index( ".test" ) ); // 1
+
+      var div = $( "#last" );
+      console.log( "Index: " + div.index( "div" ) ); // 2
     });
   </script>
 </head>
@@ -33,7 +50,7 @@
 
   <h2>link.index() with No Arguments</h2>
   <ul>
-    <!-- <div></div> -->
+    <div></div> <!--comment this line to make index of foo1 be 0-->
     <li id="foo1">foo</li>
     <li id="bar1">bar</li>
     <li id="baz1">baz</li>
