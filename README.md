@@ -14,6 +14,8 @@ Udemy course on javascript and software engineering basic prep
 - [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps)
 
 - [JQuery](https://learn.jquery.com/about-jquery/how-jquery-works/)
+  
+- [Asynchronous function](https://www.builder.io/blog/visualizing-nodejs-close-queue)
 
 ## Issues:
 
