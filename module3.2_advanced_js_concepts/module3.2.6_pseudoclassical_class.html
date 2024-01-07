@@ -16,9 +16,10 @@
     // define an object containing all the methods and assign it to obj:
     var car = function(loc) {
       // delegation is only created when using Object.create()
-      var obj = Object.create(car.prototype);
-      obj.loc = loc;
-      return obj;
+      // adding new will temporaliy add this:
+      // this = Object.create(car.prototype)
+      this.loc = loc;
+      return this;
     };
 
     // when a function get created, it will have an object attached to it as a container for methods, in case it will
@@ -26,9 +27,9 @@
     // car.prototype = {};
     car.prototype.move = function() { this.obj++; };
 
-    var amy = car(1);
-    console.log(amy.move()); // why undefined?
-    var ben = car(9);
+    var amy = new car(1);
+    console.log(amy.move());
+    var ben = new car(9);
     ben.move();
 
     console.log(car.prototype.constructor);
