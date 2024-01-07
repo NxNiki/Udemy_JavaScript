@@ -14,10 +14,14 @@ Udemy course on javascript and software engineering basic prep
 - [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps)
 
 - [JQuery](https://learn.jquery.com/about-jquery/how-jquery-works/)
-  
+
 - [Asynchronous function](https://www.builder.io/blog/visualizing-nodejs-close-queue)
 
 ## Issues:
+
+Install eslint:
+
+`npm install eslint --save-dev`
 
 I get this error when debugging vscode:
 `Can't find Node.js binary "node": path does not exist. Make sure Node.js is installed and in your PATH, or set the "runtimeExecutable" in your launch.json.`
@@ -28,7 +32,7 @@ adding to settings.json (`cmd` + `shift` + `p` and select Open User Settings):
 get the path by `which node`:
 ```
 "debug.javascript.defaultRuntimeExecutable": {
-"pwa-node": "/path/to/.nvm/versions/node/vX.X.X/bin/node" 
+"pwa-node": "/path/to/.nvm/versions/node/vX.X.X/bin/node"
 },
 ```
 
