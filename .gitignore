@@ -1,1 +1,5 @@
 *DS_Store*
+*.pdf
+.eslintrc.json
+node_modules*
+package*.json
