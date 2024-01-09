@@ -1,3 +1,5 @@
+
+// Sets:
 let bands = new Set();
 bands.add("Journey");
 bands.add("Reo Speedwagon");
@@ -8,5 +10,20 @@ if (bands.has("Journey")) {
 }
 
 for (const band of bands) {
-  console.log(band)
+  console.log(band);
+}
+
+// Maps:
+let team = new Map(
+  [
+    ["pitcher", "Ron Guidry"],
+    ["catcher", "Rick Cerone"],
+    ["centerfield", "Dave Winfield"]
+  ]
+);
+team.set("thirdbase", "Graig Nettles");
+console.log(team.get("pitcher"));
+
+for (const [key, value] of team) {
+  console.log(key, value);
 }

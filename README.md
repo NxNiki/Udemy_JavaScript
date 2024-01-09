@@ -23,6 +23,10 @@ Install eslint:
 
 `npm install eslint --save-dev`
 
+Install promander:
+`curl -s https://raw.githubusercontent.com/hackreactor/pomander-precourse/master/bin/install | bash`
+
+
 I get this error when debugging vscode:
 `Can't find Node.js binary "node": path does not exist. Make sure Node.js is installed and in your PATH, or set the "runtimeExecutable" in your launch.json.`
 
