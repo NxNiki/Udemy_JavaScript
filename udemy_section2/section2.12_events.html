@@ -29,9 +29,9 @@
       document.getElementById("title").style.fontSize = size + "em";
     });
 
-    // document.addEventListener("keydown", (e) => {
-    //   document.getElementById("title").innerHTML += "key:" + e.key + " code:" + e.code +" ";
-    // })
+    document.addEventListener("keydown", (e) => {
+      document.getElementById("title").innerHTML += "key:" + e.key + " code:" + e.code +" ";
+    })
 
     document.addEventListener("keypress", (e) => {
       document.getElementById("title").innerHTML += "key:" + e.key + " code:" + e.code +" ";
