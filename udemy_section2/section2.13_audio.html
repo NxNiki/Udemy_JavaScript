@@ -12,12 +12,14 @@
     <button id="btnPause">Pause</button>
     <button id="btnVolUp">Volume Up</button>
     <button id="btnVolDown">Volume Down</button>
+    <button id="btnChangeSong">Change Song</button>
     <script>
       const btnPlay = document.getElementById("btnPlay");
       const btnStop = document.getElementById("btnStop");
       const btnPause = document.getElementById("btnPause");
       const btnVolUp = document.getElementById("btnVolUp");
       const btnVolDown = document.getElementById("btnVolDown");
+      const btnChangeSong = document.getElementById("btnChangeSong");
       const audioPlayer = new Audio("music.mp3");
 
       btnPlay.addEventListener("click", (e) => {
@@ -39,6 +41,10 @@
 
       btnVolDown.addEventListener("click", (e) => {
         audioPlayer.volume -= .1;
+      })
+
+      btnChangeSong.addEventListener("click", (e) => {
+        audioPlayer.src = "sunny.mp3";
       })
 
     </script>
