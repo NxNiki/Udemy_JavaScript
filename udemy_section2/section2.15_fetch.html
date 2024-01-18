@@ -21,17 +21,13 @@
       </table>
     </div>
     <script>
-      fetch("example.csv")
-      .then(response => {
-          if (!response.ok) {
-              throw new Error(`HTTP error! Status: ${response.status}`);
-          }
-          return response.text();
-      })
-      .then(data => displayText(data))
-      .catch(error => console.error('Fetch error:', error));
 
-
+      // chrome has restrictions on reading local file.
+      // To bypass this security restribution, we can start our local server:
+      // navigate to the directory of this html file and run:
+      // npm install -g http-server
+      // http-server -c-1
+      // copy available URL to web browser and open html file in the browser.
 
       fetch("example.csv")
       .then(x => x.text())
@@ -44,6 +40,8 @@
         console.log(rows);
         for (let x = 1; x < rows.length - 1; x++) {
           let row = rows[x].split(',');
+          // console.log('row:')
+          // console.log(row);
           let lat = row[0] + "&deg; " + row[1] + "' " + row[2] + row[3];
           let long = row[4] + "&deg; " + row[5] + "' " + row[6] + row[7];
           let city = row[8];
