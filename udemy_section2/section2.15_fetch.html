@@ -40,8 +40,6 @@
         console.log(rows);
         for (let x = 1; x < rows.length - 1; x++) {
           let row = rows[x].split(',');
-          // console.log('row:')
-          // console.log(row);
           let lat = row[0] + "&deg; " + row[1] + "' " + row[2] + row[3];
           let long = row[4] + "&deg; " + row[5] + "' " + row[6] + row[7];
           let city = row[8];
