@@ -3,7 +3,7 @@ Udemy course on javascript and software engineering basic prep
 
 ## Resource:
 
-- [Udemy course](https://www.udemy.com/course/beginning-javascript/)
+- [Udemy JavaScript: Understand the Weird Parts](https://www.udemy.com/course/understand-javascript/learn/lecture/2280580#overview)
 
 - [Software Engineering Basic](https://learn-2.galvanize.com/cohorts/888)
 
@@ -16,6 +16,8 @@ Udemy course on javascript and software engineering basic prep
 - [JQuery](https://learn.jquery.com/about-jquery/how-jquery-works/)
 
 - [Asynchronous function](https://www.builder.io/blog/visualizing-nodejs-close-queue)
+
+- [Udemy Beginning JavaScript](https://www.udemy.com/course/beginning-javascript/)
 
 ## Issues:
 
