@@ -18,6 +18,7 @@ Udemy course on javascript and software engineering basic prep
 - [Asynchronous function](https://www.builder.io/blog/visualizing-nodejs-close-queue)
 
 - [Udemy Beginning JavaScript](https://www.udemy.com/course/beginning-javascript/)
+  This course turns out to have bad quality and is not suggested to take.
 
 ## Issues:
 
