@@ -3,6 +3,8 @@ Udemy course on javascript and software engineering basic prep
 
 ## Resource:
 
+- [Eloquent Javascript](https://eloquentjavascript.net/)
+
 - [Udemy JavaScript: Understand the Weird Parts](https://www.udemy.com/course/understand-javascript/learn/lecture/2280580#overview)
 
 - [Software Engineering Basic](https://learn-2.galvanize.com/cohorts/888)
